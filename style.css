@@ -61,7 +61,8 @@ button a {
 
 #contact {
   display: flex;
-  justify-content: space-around;
+
+  justify-content: center;
 }
 
 #big-picture {
@@ -101,4 +102,10 @@ header {
 
 #chapeau {
   padding-left: 20px;
+}
+
+.fab,
+.fas {
+  font-size: 40px;
+  margin: 15px;
 }
