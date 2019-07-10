@@ -7,8 +7,7 @@ font-family: 'Roboto Slab', serif;*/
 h1 {
   color: rgba(49, 73, 96, 1);
   font-family: "Roboto", sans-serif;
-  font-size: 40px;
-  padding-top: 55px;
+  font-size: 5vh;
 }
 
 h2 {
@@ -90,6 +89,20 @@ header {
 a {
   text-decoration: none;
 }
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+li {
+  font-size: 2vh;
+  font-family: "Roboto Slab", serif;
+  color: rgba(49, 73, 96, 1);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 1vh 0;
+}
 
 i {
   color: rgba(237, 235, 234, 0.7);
@@ -98,6 +111,7 @@ i {
 header {
   display: flex;
   align-content: row;
+  align-items: center;
 }
 
 #chapeau {
