@@ -60,7 +60,6 @@ button a {
 
 #contact {
   display: flex;
-
   justify-content: center;
 }
 
@@ -93,8 +92,8 @@ a {
 ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   flex-wrap: wrap;
+  margin: 1vh 1vw;
 }
 
 li {
@@ -103,7 +102,7 @@ li {
   color: rgba(49, 73, 96, 1);
   font-weight: bold;
   text-transform: uppercase;
-  margin: 1vh 0;
+  margin: 1vh 1vw;
 }
 
 i {
