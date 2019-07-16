@@ -89,10 +89,12 @@ header {
 a {
   text-decoration: none;
 }
+
 ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 li {
@@ -116,6 +118,13 @@ header {
 
 #chapeau {
   padding-left: 20px;
+}
+
+#chapeau,
+#my_projects,
+#soft_skills,
+#about_me {
+  min-width: 30vw;
 }
 
 .fab,
